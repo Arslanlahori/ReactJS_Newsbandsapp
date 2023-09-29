@@ -7,8 +7,13 @@
   pointer-events: none;
 }
 
+.div2{
+  background-color: aqua;
+  height: 19px;
+  
+}
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .App-logo { 
     animation: App-logo-spin infinite 20s linear;
   }
 }
@@ -36,3 +41,132 @@
     transform: rotate(360deg);
   }
 }
+
+
+.hero {
+  background-position: center;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  color: #817474;
+  text-shadow: 1px 1px #333;
+  text-align: center;
+  margin-bottom: 160px;
+}
+
+.hero p {
+  font-size: 2rem;
+  color: #fff;
+
+  /* text-align: center;
+  margin-top: 20px; */
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.2px;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 15px;
+  line-height: 30px;
+}
+
+.set {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.set p {
+  letter-spacing: 1.2px;
+  line-height: 29px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+.Icon {
+  display: inline-block;
+  text-align: center;
+  margin-right: 220px;
+  width: 200px;
+  position: relative;
+  left: 100px;
+
+  /* box-sizing: content-box;
+  margin: 50px;
+  height: 250px;
+  width: 350px;
+  overflow: hidden;
+  display: inline-block;
+  color: white;
+  position: relative;
+   */
+
+}
+
+.Icon .t {
+  padding-bottom: 30px;
+
+}
+
+.i {
+  padding-left: 230px;
+  padding-bottom: 30px;
+
+}
+
+.Icon img {
+  width: 100%;
+  transform: scale(1.0);
+  transition: transform 0.4s ease;
+
+
+}
+
+.caption {
+  position: absolute;
+  top: 250px;
+  left: 20px;
+  opacity: 0.0;
+  color: black;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+
+.Icon:hover img {
+  transform: scale(1.1);
+}
+
+
+
+
+
+.Icon:hover {
+  cursor: pointer;
+}
+
+
+.Icon h2 {
+  margin-top: 30%;
+
+}
+
+/* Add a CSS class to the main content area */
+.main-content {
+  min-height: calc(100vh - 160px); /* Adjust the value to your footer's height */
+}
+
+
+
+
+
+
+
